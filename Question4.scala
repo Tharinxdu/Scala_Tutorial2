@@ -7,7 +7,7 @@ object O1 extends App
     
     def shippingCost(noOfCopies:Int) = 
         {
-            if(noOfCopies >50)
+            if(noOfCopies >=50)
                 50 * 3 + (noOfCopies - 50) * 0.75;  
             else
                 noOfCopies*3; 
